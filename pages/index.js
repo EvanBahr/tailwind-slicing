@@ -1,13 +1,15 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Hero from "@/components/hero";
-
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "@/components/navbar";
+import Section1 from "@/components/section1";
 
 export default function Home() {
   return (
-    <div className="px-32 pb-96">
-      <Hero />
+    <div>
+      <Navbar />
+      <div className="px-24 pb-96">
+        <Hero />
+        <Section1 />
+      </div>
     </div>
   );
 }
