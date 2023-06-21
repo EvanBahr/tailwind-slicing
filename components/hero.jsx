@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="px-20">
       <div className="px-32 text-center">
         <h1
-          className="w-full text-center text-[90px] font-sans pt-36 font-bold leading-normal tracking-tighter"
+          className="w-full text-center text-[90px] font-sans pt-36 font-bold leading-normal tracking-tighter "
           data-aos="zoom-y-out"
         >
           Make your website{" "}
